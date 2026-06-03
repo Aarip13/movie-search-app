@@ -10,7 +10,7 @@ function handleChange(change){
 }
 function searchMovie() {
     axios.get(
-  `http://www.omdbapi.com/?apikey=2aa7b923&s=${search}`
+  `https://www.omdbapi.com/?apikey=2aa7b923&s=${search}`
 )
 .then(response => {
     setMovies(response.data.Search);
