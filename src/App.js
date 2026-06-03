@@ -1,4 +1,4 @@
-import { BrowserRouter,createBrowserRouter,RouterProvider,Router,Routes } from 'react-router-dom';
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import './App.css';
 import DetailMovie from './MovieDetails';
 import Search from './MovieSearch';
